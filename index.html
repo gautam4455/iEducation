@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>iEducation - Transforming Online Education</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="hamburger">
+            <div class="menuIcon">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="closeIcon">X</div>
+        </div>
+        <ul class="menu">
+            <li><a class="menuItem" href="#">Home</a></li>
+            <li><a class="menuItem" href="#about">About</a></li>
+            <li><a class="menuItem" href="#services">Services</a></li>
+            <li><a class="menuItem" href="#contact">Contact</a></li>
+            <li class="rightNav">
+                <input type="text" name="search" class="search" placeholder="Search">
+                <button class="btn btn-sm">Search</button>
+            </li>
+        </ul>
+    </nav>
+
+
+    <header id="about">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1>The Future of Education is here.</h1>
+                <p class="text-small">In this world of 7 billion people we need to educate all of them. This is the
+                    future of an educated world and we are proud to say that the Future of Education is here.</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="img/banner.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section id="services">
+        <h2>Services</h2>
+        <article class="article">
+            <div class="paras">
+                <p class="articleTag text-big">The end of your search is here</p>
+                <p class="articleSubTag text-small">Education is the process of facilitating learning, or the
+                    acquisition of knowledge, skills, values, morals, beliefs, habits, and personal development.
+                    Educational methods include teaching, training, storytelling, discussion and directed research.
+                    Education frequently takes place under the guidance of educators; however, learners can also educate
+                    themselves. Education can take place in formal or informal settings, and any experience that has a
+                    formative effect on the way one thinks, feels, or acts may be considered educational. The
+                    methodology of teaching is called pedagogy.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img/service1.jpg" alt="Service1">
+                <!-- <img src="https://picsum.photos/200" alt="Service1"> -->
+            </div>
+        </article>
+
+        <article class="article article-left">
+            <div class="paras">
+                <p class="articleTag text-big">Transforming education in India</p>
+                <p class="articleSubTag text-small">There are movements for education reforms, such as for improving
+                    quality and efficiency of education towards relevance in students' lives and efficient problem
+                    solving in modern or future society at large, or for evidence-based education methodologies. A right
+                    to education has been recognized by some governments and the United Nations.[a] Global initiatives
+                    aim at achieving the Sustainable Development Goal 4, which promotes quality education for all.</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img/service2.png" alt="Service2">
+                <!-- <img src="https://picsum.photos/400" alt="Service2"> -->
+            </div>
+        </article>
+
+        <article class="article">
+            <div class="paras">
+                <p class="articleTag text-big">Education History</p>
+                <p class="articleSubTag text-small">Education began in prehistory, as adults trained the young in the
+                    knowledge and skills deemed necessary in their society. In pre-literate societies, this was achieved
+                    orally and through imitation. Story-telling passed knowledge, values, and skills from one generation
+                    to the next. As cultures began to extend their knowledge beyond skills that could be readily learned
+                    through imitation, formal education developed. Schools existed in Egypt at the time of the Middle
+                    Kingdom.[2]</p>
+            </div>
+            <div class="thumbnail">
+                <img src="img/service3.jpg" alt="Service3">
+                <!-- <img src="https://picsum.photos/500" alt="Service3"> -->
+            </div>
+        </article>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="form" id="myForm" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your mobile" minlength="10" maxlength="10" pattern="[0-9]{10}" required>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Send a message" required></textarea>
+            <button class="btn btn-dark">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2022 - iEducation. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

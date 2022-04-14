@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --border1: 1px solid red;
+  --color1: rgb(100,10,10);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* ====================
+    Common Styles
+==================== */
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2rem 0;
+}
+.text-big {
+    font-size: 1.5rem;
+}
+.text-small {
+    font-size: 1.1rem;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin: 10px 5px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* ============
+    Navbar
+=============== */
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+}
+.logo {
+    width: 80px;
+    z-index: 5;
+    margin: 0.2rem 1.5rem;
+}
+.logo img {
+    width: 100%;
+    border-radius: 50%;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin-left: 1rem;
+    position: relative;
+}
+.menu li {
+    padding: 0 1.2rem;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu a:hover {
+    color: #e5e5e5;
+}
+.hamburger {
+    display: none;
+}
+.rightNav {
+    position: absolute;
+    right: 0;
+}
+.rightNav input {
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+.rightNav button {
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* ==========
+    Header
+============= */
+header {
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    max-width: 75%;
+    margin: auto;
+    height: 90%;
+}
+.firstHalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstHalf h1 {
+    font-size: 2.5rem;
+}
+.secondHalf {
+    width: 25%;
+}
+.secondHalf img {
+    width: 99%;
+    height: 205px;
+    border-radius: 50%;
+    border: 1px solid seagreen;
+}
+
+
+/* =====================
+    Services - Article
+======================== */
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 2.5rem;
+}
+.paras {
+    width: 75%;
+    padding: 0 50px;
+}
+.articleTag {
+    padding: 15px 0;
+}
+.articleSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail {
+    width: 25%;
+}
+.thumbnail img {
+    width: 80%;
+    border-radius: 20px;
+    border: 2px solid rgb(50,50,50);
+}
+
+
+/* =====================
+    Article article-left
+======================== */
+.article-left {
+    flex-direction: row-reverse;
+}
+.article-left .thumbnail {
+    text-align: right;
+}
+
+
+/* =====================
+    Contact Us
+======================== */
+.contact {
+    background: #eee;
+    margin-top: 5rem;
+    padding-bottom: 3rem;
+}
+.form {
+    max-width: 60%;
+    margin: auto;
+}
+.form input, .form textarea {
+    width: 100%;
+    font-size: 17px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 13px 0;
+}
+.btn-dark {
+    border: 1px solid;
+    color: #000;
+    font-size: 17px;
+}
+
+
+/* ============
+    Footer
+=============== */
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
